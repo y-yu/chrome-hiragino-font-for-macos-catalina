@@ -1,0 +1,13 @@
+language: generic
+
+os: linux
+
+dist: bionic
+
+sudo: false
+
+addons:
+  chrome: stable
+
+script:
+  - google-chrome-stable --headless --disable-gpu --load-extension=./
